@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%
+}
+
+/* CSS flexbox method to center two elements within a div */
+.container {
+  /* min height prevents containers to overlap when window is vertically resized */
+  min-height: 100%;
+  width: 100%;
+  display: flex; /* establish flex container */
+  flex-direction: column;
+  justify-content: center; /* align items vertically here */
+  align-items: center; /* align items horizontally with this command */
+}
+
+.big-heading h1 {
+  font-size: 6em; 
+}
+
+.medium-heading h1 {
+  font-size: 4.5em;
+}
+
+.big-heading p {
+  font-size: 1.4em;
+}
+
+.bg-1 {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+
+.bg-1 h1 {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #2b2b2b;
+  color: #bdbdbd;
+  padding: 25px;
+}
+
+.btn {
+  padding: 10px 31px;
+  border-radius: 1;
+  border: 1.6px solid;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+#footer1 a {
+  color: #fff;
+}
+
+#footer1 a:hover {
+  color: orange;
+}
+
+.row-spacing {
+  margin-bottom: 6em;
+}
+
+@media screen and (max-width: 640px) {
+  .big-heading h1 {
+    font-size: 3em; 
+  }
+  
+  .medium-heading h1 {
+    font-size: 3em;
+  }
+
+
+}
